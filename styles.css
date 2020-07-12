@@ -1,0 +1,128 @@
+.heading{
+    text-align: center;
+}
+.menu1{
+    position: relative;
+    border: 2px solid black;
+    width: 29%;
+    box-sizing: border-box;
+    background-color: lightgrey;
+    padding: 15px;
+    margin-right: 40px;
+    float:left;
+    
+}
+.subheading1{
+    width: 33.3%;
+    box-sizing: border-box;
+    float: right;
+    clear: right;
+    text-align: center;
+    position: relative;
+    top: -16px;
+    right: -16px;
+    border: 2px solid black;
+    font-weight: bold;
+    background-color: pink;
+}
+.content1{
+    clear: both;
+}
+
+.menu2{
+    position: relative;
+
+    border: 2px solid black;
+    width: 29%;
+    box-sizing: border-box;
+    background-color: lightgrey;
+    padding: 15px;
+    margin-right: 40px;
+    float:left;
+    
+}
+.subheading2{
+    width: 33.3%;
+    float: right;
+    clear: right;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    top: -16px;
+    right: -16px;
+    border: 2px solid black;
+    font-weight: bolder;
+    color: white;
+    background-color:red;
+}
+.content2{
+    clear: both;
+}
+
+
+
+.menu3{
+    position: relative;
+    border: 2px solid black;
+    width: 29%;
+    box-sizing: border-box;
+    background-color: lightgrey;
+    padding: 15px;
+    margin-right: 40px;
+    float:left;
+    
+}
+.subheading3{
+    width: 33.3%;
+    float: right;
+    clear: right;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    top: -16px;
+    right: -16px;
+    border: 2px solid black;
+    font-weight: bold;
+    background-color:yellow;
+}
+.content3{
+    clear: both;
+}
+
+
+@media  (min-width:768px) and (max-width:991px){
+    .menu1{
+        width: 45%;
+        float: left;
+        margin-bottom: 50px;
+    }
+    .menu2{
+        width: 45%;
+        float: left;
+        margin-bottom: 50px;
+        margin-right: 0px;
+    }
+    .menu3{
+        clear: both;
+        float: left;
+        width: 94.5%;
+    }
+}
+@media(max-width:767px){
+    .menu1{
+        width: 94%;
+        float: left;
+        margin-bottom: 50px;
+    }
+    .menu2{
+        width: 94%;
+        float: left;
+        margin-bottom: 50px;
+    }
+    .menu3{
+        clear: both;
+        float: left;
+        width: 94%;
+
+    }
+}
